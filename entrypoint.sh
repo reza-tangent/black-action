@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-sh -c "black $*"
+sh -c "black -l 100 $*"
